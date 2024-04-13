@@ -1,3 +1,8 @@
+@font-face {
+  font-family: syne;
+  src: url(../public//font/Syne-Medium.ttf);
+}
+
 .menu-list {
   list-style: none;
 }
@@ -5,27 +10,138 @@ body {
   background-color: #000;
 }
 .menu-link {
-  color: #000;
   text-decoration: none;
   background-color: transparent;
-  color: #e9e9f1;
-  backdrop-filter: blur(6px);
-  font-size: 20px;
-  opacity: 0.7;
-  transition: all 0.5s;
+  transition: cubic-bezier(0.19, 1, 0.22, 1);
+  font-family: syne;
+  padding: 10px 0px;
 }
-.menu-link:hover {
-  opacity: 1;
+.main-caption {
+  opacity: 0.7;
 }
 .list-item {
-  transition: all 0.5s;
-  border: 1px solid #ffffff4d;
-  padding: 10px 20px;
-  opacity: 0.7;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 35px;
+  padding: 10px 19px;
+  transition: cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
   cursor: pointer;
-  border-radius: 10px 20px;
+
+  cursor: pointer;
 }
-.list-item:hover {
+
+.profile-img {
+  width: 80%;
+  border-radius: 22px;
+}
+a {
+  color: #fff;
+}
+.profile {
+  position: fixed;
+  color: #fff;
+  font-family: syne;
+  border: 1px solid #ffffff45;
+  border-radius: 31px;
+  width: 310px;
+}
+h2.name {
+  font-weight: 600;
+  font-size: 25px;
+}
+.special {
+  font-size: 14px;
+  margin: 0px;
+  opacity: 0.7;
+}
+.myself {
+  padding: 10px 33px;
+}
+a.work-btn {
+  background: linear-gradient(135deg, #e4b8bf 0%, #cec4ef 100%);
+  color: #000;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 12px;
+  border-radius: 21px;
+  outline: none;
+  width: 90%;
+  font-weight: 500;
+  margin: 7px auto;
+}
+.work-btn2 {
+  width: 100% !important;
+  padding: 10px 30px !important;
+}
+#main-col {
+  width: 30% !important;
+}
+#main {
+  color: #fff;
+  font-family: syne;
+  position: relative;
+  top: 6%;
+}
+.picture {
+  width: 100%;
+}
+.tag {
+  color: #fff;
+  margin: 0px;
+  font-size: 14px;
+  width: fit-content;
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: 1px solid #ffffff4a;
+}
+
+#projects .col-sm-6:nth-child(odd) .tag {
+  background-color: #000 !important;
+  color: #fff !important;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: 400 !important;
+  margin: 0px 5px;
+}
+#projects .col-sm-6:nth-child(even) .tag {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: 400 !important;
+  margin: 0px 5px;
+}
+.project-img {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+
+  border-radius: 25px;
+}
+.picture {
+  width: 100%;
   transform: scale(1.1);
-  opacity: 1;
+  transition: cubic-bezier(0.19, 1, 0.22, 1) 0.7s;
+}
+.project-img:hover .picture {
+  transform: scale(1);
+}
+.about-project {
+  position: absolute;
+  bottom: 40px;
+  left: 30px;
+}
+.content-heading {
+  color: #e1bac5;
+  background: -webkit-linear-gradient(15deg, #e1bac5 0%, #cec4ef 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  font-weight: 600;
+}
+.main-header {
+  position: fixed;
+  width: 64%;
+  z-index: 99;
 }
