@@ -260,3 +260,18 @@ button.btn-caption {
 .last-link:hover {
   background-size: 0 1px, 100% 1px !important;
 }
+.about-me a {
+  background-repeat: no-repeat !important;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    linear-gradient(to right, #e4b8bf, #cec4ef);
+  background-size: 0% 1px !important;
+  background-position: 0 100%;
+  transition: cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+.about-me a:hover {
+  background-size: 100% 1px !important;
+}
+.contact-lines__item {
+  padding: 33px 0px 103px;
+  border-top: 1px solid #ffffff6b;
+}

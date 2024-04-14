@@ -50,6 +50,39 @@ const Home = () => {
                 </a>
                 and I'll get back as soon as possible.
               </h2>
+              <div className="contact-lines__item">
+                <div className="row">
+                  <div className="col-sm-4">
+                    <div class="pro-section py-2">
+                      <p class="special">Location</p>
+                      <div class="about-me">Sirsa, Haryana</div>
+                    </div>
+                  </div>
+                  <div className="col-sm-4">
+                    <div class="pro-section py-2">
+                      <p class="special">Phone</p>
+                      <div class="about-me">
+                        <a href="tel:9306435750" class="text-decoration-none">
+                          +91 93064-35750
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-sm-4">
+                    <div class="pro-section py-2">
+                      <p class="special">Email</p>
+                      <div class="about-me">
+                        <a
+                          href="mailto:developrr.sourabh@gmail.com"
+                          class="text-decoration-none"
+                        >
+                          developrr.sourabh@gmail.com
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </Layout>
         </div>
