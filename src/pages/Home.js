@@ -1,120 +1,58 @@
 import React from "react";
 import Layout from "../components/Layout";
+import Profile from "../components/Profile";
+import Project from "../components/Project";
+import About from "../components/About";
+import Experience from "../components/Experience";
+import Contact from "../components/Contact";
 
 const Home = () => {
   return (
-    <div className="row">
-      <div
-        id="main-col
-      "
-        className="col-sm-4 py-4 ps-5"
-      >
-        <div className="profile py-4">
-          <h2 className="name  text-center m-0 pb-3">Sourabh</h2>
-          <div className="my-img text-center">
-            <img
-              src="/images/profile.jpg"
-              alt="profile-img"
-              className="profile-img "
-            />
-          </div>
-          <div className="myself ">
-            <p className="special">Specialization:</p>
-            <div className="about-me">UI/UX designer </div>
-            <div className="about-me">and frontend developer</div>
-          </div>
-          <div className="myself pt-1">
-            <p className="special">Based in:</p>
-            <div className="about-me">Sirsa, India </div>
-          </div>
-          <div className="profile-btn">
-            <a href="#" className="work-btn">
-              <span className="btn-caption">Let's Work Together!</span>
-            </a>
-          </div>
+    <div className="all">
+      <div className="row flex-wrap w-100 justify-content-between">
+        <div
+          id="main-col
+  "
+          className="col-sm-4 py-4 ps-5"
+        >
+          <Profile />
         </div>
-      </div>
-      <div className="col-sm-8 p-4">
-        <Layout>
-          <div id="main" className="py-3">
-            <p className="tag">Portfolio</p>
-            <div id="projects" className="py-3">
-              <h2 className=" pb-4 content-heading">
-                Check out my featured projects
+        <div className="col-sm-8 p-4">
+          <Layout>
+            <div id="main" className="py-3">
+              <section className="project-section">
+                <p className="tag">Let's Meet!</p>
+                <div id="projects" className="py-3">
+                  <h2 className=" pb-1 content-heading self-detail">
+                    I'm Sourabh
+                  </h2>
+                  <h2 className=" pb-4 content-heading self-detail">
+                    Fullstack Web Developer
+                  </h2>
+                </div>
+                <div className="d-flex justify-content-lg-start gap-3">
+                  <a className="tag tag2">My Works</a>
+                  <a className="tag tag2">Download CV</a>
+                </div>
+              </section>
+              <Project />
+              <About />
+              <Experience />
+              <Contact />
+              <h2 className=" last-heading pb-4 content-heading">
+                Want to know more about me, tell me about your project or just
+                to say hello?
+                <a
+                  className="last-link"
+                  href="mailto:developrr.sourabh@gmail.com"
+                >
+                  Drop me a line{" "}
+                </a>
+                and I'll get back as soon as possible.
               </h2>
-              <div className="row g-4">
-                <div className="col-sm-6">
-                  <div className="project-img ">
-                    <img
-                      className="picture"
-                      src="./images/project1.webp"
-                      alt="project-img"
-                    />
-                    <div className="about-project">
-                      <a href="#" className="tag">
-                        Illustration
-                      </a>
-                      <a href="#" className="tag">
-                        Figma
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-sm-6">
-                  <div className="project-img ">
-                    <img
-                      className="picture"
-                      src="./images/project1.webp"
-                      alt="project-img"
-                    />
-                    <div className="about-project">
-                      <a href="#" className="tag">
-                        Illustration
-                      </a>
-                      <a href="#" className="tag">
-                        Figma
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-sm-6">
-                  <div className="project-img ">
-                    <img
-                      className="picture"
-                      src="./images/project1.webp"
-                      alt="project-img"
-                    />
-                    <div className="about-project">
-                      <a href="#" className="tag">
-                        Illustration
-                      </a>
-                      <a href="#" className="tag">
-                        Figma
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-sm-6">
-                  <div className="project-img ">
-                    <img
-                      className="picture"
-                      src="./images/project1.webp"
-                      alt="project-img"
-                    />
-                    <div className="about-project">
-                      <a href="#" className="tag">
-                        Illustration
-                      </a>
-                      <a href="#" className="tag">
-                        Figma
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
-        </Layout>
+          </Layout>
+        </div>
       </div>
     </div>
   );

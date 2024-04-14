@@ -2,6 +2,9 @@
   font-family: syne;
   src: url(../public//font/Syne-Medium.ttf);
 }
+body {
+  overflow-x: hidden;
+}
 
 .menu-list {
   list-style: none;
@@ -38,7 +41,7 @@ a {
   color: #fff;
 }
 .profile {
-  position: fixed;
+  position: fixed !important;
   color: #fff;
   font-family: syne;
   border: 1px solid #ffffff45;
@@ -57,7 +60,7 @@ h2.name {
 .myself {
   padding: 10px 33px;
 }
-a.work-btn {
+.work-btn {
   background: linear-gradient(135deg, #e4b8bf 0%, #cec4ef 100%);
   color: #000;
   text-decoration: none;
@@ -81,9 +84,12 @@ a.work-btn {
   color: #fff;
   font-family: syne;
   position: relative;
-  top: 6%;
+  top: 2%;
 }
 .picture {
+  width: 100%;
+}
+.all {
   width: 100%;
 }
 .tag {
@@ -137,11 +143,120 @@ a.work-btn {
   background: -webkit-linear-gradient(15deg, #e1bac5 0%, #cec4ef 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 600;
 }
+.last-heading {
+  font-size: 35px;
+  width: 87%;
+}
+
 .main-header {
   position: fixed;
   width: 64%;
   z-index: 99;
+}
+.project-section {
+  margin: 40px 0px 70px;
+}
+.project-section:nth-child(1) {
+  margin: 0px;
+  padding-bottom: 60px;
+}
+.self-detail {
+  font-size: 69px;
+}
+
+.tag2 {
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 8px 23px;
+}
+p.desc {
+  opacity: 0.8;
+  line-height: 25px;
+  font-size: 18px;
+}
+.count-box {
+  background: -webkit-linear-gradient(15deg, #e1bac5 0%, #cec4ef 80%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  border: 1px solid #ffffff45;
+  padding: 10px 20px;
+  border-radius: 46px;
+}
+h2.happy-client {
+  font-size: 18px;
+  font-weight: 600;
+}
+h2.count {
+  font-size: 70px;
+  font-weight: revert-layer;
+}
+
+.course {
+  font-size: 25px;
+}
+.col-sm-5 p.desc {
+  font-size: 16px;
+}
+.education .col-sm-2 {
+  opacity: 0.7;
+}
+.education .row {
+  padding: 44px 0px;
+  border-top: 1px solid #ffffff30;
+}
+.education .row:last-child {
+  padding: 44px 0px;
+  border-top: 1px solid #ffffff30;
+  border-bottom: 1px solid #ffffff30;
+}
+.count-box img {
+  width: 70%;
+}
+.tools .happy-client {
+  font-size: 16px;
+}
+.tools .count-box {
+  padding: 10px 12px !important;
+}
+
+/* Contact Form */
+.contact-form .form-input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  padding: 1.4rem 0.4rem;
+  border-bottom: 2px solid #ffffff5c;
+}
+.contact-form .col-sm-6,
+.col-sm-12 {
+  padding: 15px;
+}
+.contact-form .form-input::placeholder {
+  font-size: 20px;
+  font-weight: 600;
+}
+button.btn-caption {
+  outline: none;
+  border: none;
+  background: transparent;
+}
+.last-link {
+  background-size: 100% 1px, 0 1px !important;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    linear-gradient(to right, #e4b8bf, #cec4ef);
+  background-position: 100% 100%, 0 100%;
+  transition: cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+  background-repeat: no-repeat;
+}
+.last-link:hover {
+  background-size: 0 1px, 100% 1px !important;
 }
