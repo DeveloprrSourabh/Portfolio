@@ -99,7 +99,7 @@ h2.name {
   width: fit-content;
   padding: 5px 20px;
   border-radius: 20px;
-  border: 1px solid #ffffff4a;
+  border: 1px solid;
 }
 
 #projects .col-sm-6:nth-child(odd) .tag {
@@ -274,4 +274,28 @@ button.btn-caption {
 .contact-lines__item {
   padding: 33px 0px 103px;
   border-top: 1px solid #ffffff6b;
+}
+.fa-sun,
+.fa-moon {
+  vertical-align: middle;
+  color: #fff;
+  padding-top: 7px;
+}
+dl,
+ol,
+ul {
+  margin: 0px;
+}
+.theme-icon {
+  cursor: pointer;
+}
+.theme-icon {
+  background: #252424;
+  width: 60px;
+  height: 37px;
+  text-align: center;
+  border-radius: 50%;
+}
+.sun-btn {
+  align-items: center !important;
 }

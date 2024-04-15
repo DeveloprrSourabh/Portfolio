@@ -48,10 +48,10 @@ const Contact = () => {
                   rows="7"
                 ></textarea>
               </div>
-              <div className="col-sm-3">
+              <div className="col-sm-4">
                 <div class="nav-btn">
                   <button type="submit" class="btn-caption ">
-                    <div class="work-btn work-btn2">send Message</div>
+                    <div class="work-btn work-btn2 ">Send Message</div>
                   </button>
                 </div>
               </div>
