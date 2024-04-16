@@ -2,6 +2,11 @@ import { set } from "mongoose";
 import React, { useEffect, useState } from "react";
 
 const Header = () => {
+  const classFunc = () => {
+    return document
+      .querySelectorAll(".content-heading")
+      .forEach((ele) => ele.classList.toggle("heading-light"));
+  };
   const [light, setLight] = useState(false);
   let body = document.getElementById("main-body");
   let card = document.querySelectorAll(".profile");
@@ -65,18 +70,18 @@ const Header = () => {
               </a>
             </li>
           </ul>
-          <div className="nav-btn d-flex gap-3 sun-btn">
+          <div className="nav-btn d-flex gap-3 sun-btn " onClick={classFunc}>
             {!light ? (
               <div className="theme-icon" onClick={() => setLight(true)}>
-                <i class="fa-regular fa-sun"></i>
+                <i className="fa-regular fa-sun"></i>
               </div>
             ) : (
               <div className="theme-icon" onClick={() => setLight(false)}>
-                <i class="fa-regular fa-moon"></i>
+                <i className="fa-regular fa-moon"></i>
               </div>
             )}
 
-            <a href="#" class="work-btn work-btn2">
+            <a href="#" className="work-btn work-btn2">
               <span className="btn-caption ">Let's Talk!</span>
             </a>
           </div>

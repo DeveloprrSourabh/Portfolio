@@ -3,7 +3,7 @@ import React from "react";
 const Experience = () => {
   return (
     <div>
-      <section className="project-section">
+      <section id="resume" className="project-section">
         <p className="tag">Resume</p>
         <div id="projects" className="py-3">
           <h2 className=" pb-4 content-heading">
@@ -90,36 +90,36 @@ const Experience = () => {
         {/* Favourite tool */}
         <div className="education tools">
           <h2 className="edu-heading py-5">My favourite tools</h2>
-          <div className="d-flex flex-wrap gap-3">
-            <div class="count-box">
-              <h2 class="count">
+          <div className="d-flex flex-wrap gap-3 tools1">
+            <div className="count-box ">
+              <h2 className="count">
                 <img src="./images/html.svg" alt="" />
               </h2>
-              <h2 class="happy-client">HTML5</h2>
+              <h2 className="happy-client">HTML5</h2>
             </div>
-            <div class="count-box">
-              <h2 class="count">
+            <div className="count-box ">
+              <h2 className="count">
                 <img src="./images/css.svg" alt="" />
               </h2>
-              <h2 class="happy-client">CSS3</h2>
+              <h2 className="happy-client">CSS3</h2>
             </div>
-            <div class="count-box">
-              <h2 class="count">
+            <div className="count-box ">
+              <h2 className="count">
                 <img src="./images/html.svg" alt="" />
               </h2>
-              <h2 class="happy-client">HTML5</h2>
+              <h2 className="happy-client">HTML5</h2>
             </div>
-            <div class="count-box">
-              <h2 class="count">
+            <div className="count-box ">
+              <h2 className="count">
                 <img src="./images/css.svg" alt="" />
               </h2>
-              <h2 class="happy-client">CSS3</h2>
+              <h2 className="happy-client">CSS3</h2>
             </div>
-            <div class="count-box">
-              <h2 class="count">
+            <div className="count-box ">
+              <h2 className="count">
                 <img src="./images/html.svg" alt="" />
               </h2>
-              <h2 class="happy-client">HTML5</h2>
+              <h2 className="happy-client">HTML5</h2>
             </div>
           </div>
         </div>

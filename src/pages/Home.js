@@ -53,28 +53,31 @@ const Home = () => {
               <div className="contact-lines__item">
                 <div className="row">
                   <div className="col-sm-4">
-                    <div class="pro-section py-2">
-                      <p class="special">Location</p>
-                      <div class="about-me">Sirsa, Haryana</div>
+                    <div className="pro-section py-2">
+                      <p className="special">Location</p>
+                      <div className="about-me">Sirsa, Haryana</div>
                     </div>
                   </div>
                   <div className="col-sm-4">
-                    <div class="pro-section py-2">
-                      <p class="special">Phone</p>
-                      <div class="about-me">
-                        <a href="tel:9306435750" class="text-decoration-none">
+                    <div className="pro-section py-2">
+                      <p className="special">Phone</p>
+                      <div className="about-me">
+                        <a
+                          href="tel:9306435750"
+                          className="text-decoration-none"
+                        >
                           +91 93064-35750
                         </a>
                       </div>
                     </div>
                   </div>
                   <div className="col-sm-4">
-                    <div class="pro-section py-2">
-                      <p class="special">Email</p>
-                      <div class="about-me">
+                    <div className="pro-section py-2">
+                      <p className="special">Email</p>
+                      <div className="about-me">
                         <a
                           href="mailto:developrr.sourabh@gmail.com"
-                          class="text-decoration-none"
+                          className="text-decoration-none"
                         >
                           developrr.sourabh@gmail.com
                         </a>

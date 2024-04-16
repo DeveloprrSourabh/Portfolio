@@ -3,7 +3,7 @@ import React from "react";
 const Project = () => {
   return (
     <div>
-      <section className="project-section">
+      <section id="portfolio" className="project-section">
         <p className="tag">Portfolio</p>
         <div id="projects" className="py-3">
           <h2 className=" pb-4 content-heading">

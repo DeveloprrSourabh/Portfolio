@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <div>
-      <section className="project-section">
+      <section id="contact" className="project-section">
         <p className="tag">Contact</p>
         <div id="projects" className="py-3">
           <h2 className=" pb-4 content-heading">
@@ -49,9 +49,9 @@ const Contact = () => {
                 ></textarea>
               </div>
               <div className="col-sm-4">
-                <div class="nav-btn">
-                  <button type="submit" class="btn-caption ">
-                    <div class="work-btn work-btn2 ">Send Message</div>
+                <div className="nav-btn">
+                  <button type="submit" className="btn-caption ">
+                    <div className="work-btn work-btn2 ">Send Message</div>
                   </button>
                 </div>
               </div>

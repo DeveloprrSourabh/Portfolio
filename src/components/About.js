@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div>
-      <section className="project-section">
+      <section id="about" className="project-section">
         <p className="tag">About Me</p>
         <div id="projects" className="py-3">
           <h2 className=" pb-4 content-heading">
@@ -43,20 +43,20 @@ const About = () => {
                 the next question is 'Who in the world am I?' Ah, that's the
                 great puzzle!
               </p>
-              <div class=" w-50 nav-btn">
-                <a href="#" class="work-btn work-btn2">
-                  <span class="btn-caption ">Download CV</span>
+              <div className=" w-50 nav-btn">
+                <a href="#" className="work-btn work-btn2">
+                  <span className="btn-caption ">Download CV</span>
                 </a>
               </div>
             </div>
             <div className="col-sm-4">
               <div className="pro-section py-2">
                 <p className="special">Name</p>
-                <div class="about-me">Sourabh</div>
+                <div className="about-me">Sourabh</div>
               </div>
               <div className="pro-section py-2">
                 <p className="special">Phone</p>
-                <div class="about-me">
+                <div className="about-me">
                   <a href="tel:9306435750" className="text-decoration-none">
                     +91 93064-35750
                   </a>
@@ -64,7 +64,7 @@ const About = () => {
               </div>
               <div className="pro-section py-2">
                 <p className="special">Email</p>
-                <div class="about-me">
+                <div className="about-me">
                   <a
                     href="mailto:developrr.sourabh@gmail.com"
                     className="text-decoration-none"
@@ -75,7 +75,7 @@ const About = () => {
               </div>
               <div className="pro-section py-2">
                 <p className="special">Location</p>
-                <div class="about-me">Sirsa, Haryana</div>
+                <div className="about-me">Sirsa, Haryana</div>
               </div>
             </div>
           </div>
