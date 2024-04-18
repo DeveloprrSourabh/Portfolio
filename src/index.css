@@ -606,7 +606,8 @@ textarea {
     margin: 0;
   }
   .tools .count-box {
-    padding: 10px 23px !important;
+    /* padding: 10px 23px !important; */
+    width: 45%;
   }
   .bars {
     left: 320px;
