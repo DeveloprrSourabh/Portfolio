@@ -7,7 +7,7 @@ const Profile = () => {
         <h2 className="name  text-center m-0 pb-3">Sourabh</h2>
         <div className="my-img text-center">
           <img
-            src="/images/profile.jpg"
+            src="./images/profile.jpg"
             alt="profile-img"
             className="profile-img "
           />
