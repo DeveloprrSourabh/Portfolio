@@ -609,6 +609,9 @@ textarea {
     /* padding: 10px 23px !important; */
     width: 45%;
   }
+  .tools1 {
+    justify-content: center;
+  }
   .bars {
     left: 320px;
   }
