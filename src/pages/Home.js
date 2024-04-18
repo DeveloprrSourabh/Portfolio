@@ -10,14 +10,10 @@ const Home = () => {
   return (
     <div className="all">
       <div className="row flex-wrap w-100 justify-content-between">
-        <div
-          id="main-col
-  "
-          className="col-sm-4 py-4 ps-5"
-        >
+        <div id="main-col" className="col-lg-4 py-4 ps-5">
           <Profile />
         </div>
-        <div className="col-sm-8 p-4">
+        <div id="home" className="col-lg-8 p-4">
           <Layout>
             <div id="main" className="py-3">
               <section className="project-section">
@@ -52,13 +48,13 @@ const Home = () => {
               </h2>
               <div className="contact-lines__item">
                 <div className="row">
-                  <div className="col-sm-4">
+                  <div className="col-lg-4">
                     <div className="pro-section py-2">
                       <p className="special">Location</p>
                       <div className="about-me">Sirsa, Haryana</div>
                     </div>
                   </div>
-                  <div className="col-sm-4">
+                  <div className="col-lg-4">
                     <div className="pro-section py-2">
                       <p className="special">Phone</p>
                       <div className="about-me">
@@ -71,7 +67,7 @@ const Home = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-sm-4">
+                  <div className="col-lg-4">
                     <div className="pro-section py-2">
                       <p className="special">Email</p>
                       <div className="about-me">

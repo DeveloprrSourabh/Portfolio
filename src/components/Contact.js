@@ -1,4 +1,5 @@
 import React from "react";
+import toast from "react-hot-toast";
 
 const Contact = () => {
   return (
@@ -11,35 +12,35 @@ const Contact = () => {
           </h2>
           <div className="contact-form">
             <div className="row">
-              <div className="col-sm-6">
+              <div className="col-lg-6">
                 <input
                   type="text"
                   placeholder="Your Name*"
                   className="form-input"
                 />
               </div>
-              <div className="col-sm-6">
+              <div className="col-lg-6">
                 <input
                   type="text"
                   placeholder="Company Name*"
                   className="form-input"
                 />
               </div>
-              <div className="col-sm-6">
+              <div className="col-lg-6">
                 <input
                   type="email"
                   placeholder="Email Address*"
                   className="form-input"
                 />
               </div>
-              <div className="col-sm-6">
+              <div className="col-lg-6">
                 <input
                   type="tel"
                   placeholder="Phone Number*"
                   className="form-input"
                 />
               </div>
-              <div className="col-sm-12">
+              <div className="col-lg-12">
                 <textarea
                   name="message"
                   placeholder="A Few Words*"
@@ -48,10 +49,17 @@ const Contact = () => {
                   rows="7"
                 ></textarea>
               </div>
-              <div className="col-sm-4">
+              <div className="col-lg-4">
                 <div className="nav-btn">
                   <button type="submit" className="btn-caption ">
-                    <div className="work-btn work-btn2 ">Send Message</div>
+                    <div
+                      className="work-btn work-btn2"
+                      onClick={() => {
+                        toast.success("Thanks For Contacting..");
+                      }}
+                    >
+                      Send Message
+                    </div>
                   </button>
                 </div>
               </div>

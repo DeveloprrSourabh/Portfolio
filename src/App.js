@@ -34,7 +34,7 @@ const App = () => {
       });
       about.to(".content-heading", { top: "0", opacity: "1" });
       about.to(".count-box", { top: "0", opacity: "1" });
-      about.to(".desc", { right: "0", color: "#fff" });
+      // about.to(".desc", { right: "0", color: "#fff" });
       about.to(".pro-section", { left: "0", opacity: "1" });
 
       // Resume view
@@ -58,6 +58,7 @@ const App = () => {
         },
       });
       study.to(".education", { top: "0", opacity: "1" });
+      study.to(".edu-heading", { top: "0", opacity: "1" });
 
       // study tool view
       let tool = gsap.timeline({
@@ -80,7 +81,7 @@ const App = () => {
           scrub: 1,
         },
       });
-      // tool.to(".edu-heading", { top: "0", opacity: "1" });
+      tool.to(".edu-heading", { top: "0", opacity: "1" });
       contact.to(".form-input", { left: "0", opacity: "1" });
       contact.to(".form-input", { right: "0", opacity: "1" });
       contact.to("textarea", { top: "0", opacity: "1" });

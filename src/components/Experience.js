@@ -21,14 +21,14 @@ const Experience = () => {
         <div className="education">
           <h2 className="edu-heading py-5">My education</h2>
           <div className="row align-align-items-lg-start">
-            <div className="col-sm-2">2015 - 2016</div>
-            <div className="col-sm-5">
+            <div className="col-lg-2">2015 - 2016</div>
+            <div className="col-lg-5">
               <div className="study">
                 <div className="course">Drawing Concentration</div>
                 <div className="school">Course by New York Academy of Art</div>
               </div>
             </div>
-            <div className="col-sm-5">
+            <div className="col-lg-5">
               <p className="desc">
                 Intensive drawing courses that present the fundamental
                 principles of drawing.
@@ -36,14 +36,14 @@ const Experience = () => {
             </div>
           </div>
           <div className="row align-align-items-lg-start">
-            <div className="col-sm-2">2015 - 2016</div>
-            <div className="col-sm-5">
+            <div className="col-lg-2">2015 - 2016</div>
+            <div className="col-lg-5">
               <div className="study">
                 <div className="course">Drawing Concentration</div>
                 <div className="school">Course by New York Academy of Art</div>
               </div>
             </div>
-            <div className="col-sm-5">
+            <div className="col-lg-5">
               <p className="desc">
                 Intensive drawing courses that present the fundamental
                 principles of drawing.
@@ -56,14 +56,14 @@ const Experience = () => {
         <div className="education">
           <h2 className="edu-heading py-5">Work experience</h2>
           <div className="row align-align-items-lg-start">
-            <div className="col-sm-2">2015 - 2016</div>
-            <div className="col-sm-5">
+            <div className="col-lg-2">2015 - 2016</div>
+            <div className="col-lg-5">
               <div className="study">
                 <div className="course">Drawing Concentration</div>
                 <div className="school">Course by New York Academy of Art</div>
               </div>
             </div>
-            <div className="col-sm-5">
+            <div className="col-lg-5">
               <p className="desc">
                 Intensive drawing courses that present the fundamental
                 principles of drawing.
@@ -71,14 +71,14 @@ const Experience = () => {
             </div>
           </div>
           <div className="row align-align-items-lg-start">
-            <div className="col-sm-2">2015 - 2016</div>
-            <div className="col-sm-5">
+            <div className="col-lg-2">2015 - 2016</div>
+            <div className="col-lg-5">
               <div className="study">
                 <div className="course">Drawing Concentration</div>
                 <div className="school">Course by New York Academy of Art</div>
               </div>
             </div>
-            <div className="col-sm-5">
+            <div className="col-lg-5">
               <p className="desc">
                 Intensive drawing courses that present the fundamental
                 principles of drawing.

@@ -3,9 +3,30 @@ import React, { useEffect, useState } from "react";
 
 const Header = () => {
   const classFunc = () => {
-    return document
+    document
       .querySelectorAll(".content-heading")
       .forEach((ele) => ele.classList.toggle("heading-light"));
+    document
+      .querySelectorAll(".count-box")
+      .forEach((ele) => ele.classList.toggle("active"));
+    document
+      .querySelectorAll(".form-input")
+      .forEach((ele) => ele.classList.toggle("active"));
+    document
+      .querySelectorAll(".education .row")
+      .forEach((ele) => ele.classList.toggle("active"));
+    document
+      .querySelectorAll(".contact-lines__item")
+      .forEach((ele) => ele.classList.toggle("active"));
+  };
+  // navbar toggle
+  const navFunc = () => {
+    document
+      .querySelectorAll(".main-header")
+      .forEach((ele) => ele.classList.toggle("active"));
+    document
+      .querySelectorAll(".bars")
+      .forEach((ele) => ele.classList.toggle("active"));
   };
   const [light, setLight] = useState(false);
   let body = document.getElementById("main-body");
@@ -45,27 +66,27 @@ const Header = () => {
         <div className="header-menu d-flex justify-content-between align-items-baseline">
           <ul className=" p-0 menu-list d-flex justify-content-start">
             <li className="list-item mx-2">
-              <a href="" className="menu-link">
+              <a href="#home" className="menu-link">
                 <span className="main-caption">Home</span>
               </a>
             </li>
             <li className="list-item mx-2">
-              <a href="" className="menu-link">
+              <a href="#portfolio" className="menu-link">
                 <span className="main-caption">Portfolio</span>
               </a>
             </li>
             <li className="list-item mx-2">
-              <a href="" className="menu-link">
+              <a href="#about" className="menu-link">
                 <span className="main-caption">About Me</span>
               </a>
             </li>
             <li className="list-item mx-2">
-              <a href="" className="menu-link">
+              <a href="#resume" className="menu-link">
                 <span className="main-caption">Resume</span>
               </a>
             </li>
             <li className="list-item mx-2">
-              <a href="" className="menu-link">
+              <a href="#contact" className="menu-link">
                 <span className="main-caption">Contact</span>
               </a>
             </li>
@@ -86,6 +107,9 @@ const Header = () => {
             </a>
           </div>
         </div>
+      </div>
+      <div className="bars" onClick={navFunc}>
+        |||
       </div>
     </header>
   );
