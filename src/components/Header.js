@@ -62,7 +62,14 @@ const Header = () => {
   }, [light]);
   return (
     <header>
-      <div className="main-header">
+      <div
+        className="main-header"
+        onClick={() => {
+          document
+            .querySelectorAll(".main-header")
+            .forEach((ele) => ele.classList.toggle("active"));
+        }}
+      >
         <div className="header-menu d-flex justify-content-between align-items-baseline">
           <ul className=" p-0 menu-list d-flex justify-content-start">
             <li className="list-item mx-2">

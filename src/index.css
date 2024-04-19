@@ -261,7 +261,10 @@ h2.count {
   border-bottom: 1px solid #ffffff30;
 }
 .count-box img {
-  width: 70%;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  padding: 10px;
 }
 .tools .happy-client {
   font-size: 16px;
@@ -398,6 +401,7 @@ textarea {
 }
 .main-header.active {
   display: block;
+  overflow-x: hidden;
   background: linear-gradient(135deg, #e4b8bf 0%, #cec4ef 100%);
   width: 100%;
   left: 0;
@@ -503,11 +507,15 @@ textarea {
     flex-direction: column;
     width: 100%;
   }
+  /* .list-item:last-child {
+    margin-bottom: 10px !important;
+  } */
   .list-item {
+    margin: 0px !important;
     width: 100%;
     text-align: justify;
     border-bottom: 1px solid #000000c6;
-    border-radius: 10px;
+    border-radius: 0px;
   }
   .header-menu {
     flex-direction: column;
@@ -541,8 +549,12 @@ textarea {
   }
   .theme-icon {
     background: #252424;
-    width: 55px;
-    height: 41px;
+    height: 44px;
+    width: 54px;
+  }
+  .fa-moon,
+  .fa-sun {
+    padding-top: 12px;
   }
   .all {
     padding-top: 15%;
