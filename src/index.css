@@ -377,7 +377,10 @@ textarea {
   top: 30%;
   opacity: 0;
 }
-
+img.picture {
+  height: 400px;
+  object-fit: cover;
+}
 .education {
   position: relative;
   top: 20%;
