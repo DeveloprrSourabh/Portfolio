@@ -67,7 +67,7 @@ const Header = () => {
         onClick={() => {
           document
             .querySelectorAll(".main-header")
-            .forEach((ele) => ele.classList.toggle("active"));
+            .forEach((ele) => ele.classList.remove("active"));
         }}
       >
         <div className="header-menu d-flex justify-content-between align-items-baseline">

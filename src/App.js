@@ -41,9 +41,9 @@ const App = () => {
       let resume = gsap.timeline({
         scrollTrigger: {
           trigger: "#resume",
-          start: "top center",
+          start: "0 100%",
           end: "top 100px",
-          scrub: 1,
+          scrub: 0,
         },
       });
       resume.to(".content-heading", { top: "0", opacity: "1" });
