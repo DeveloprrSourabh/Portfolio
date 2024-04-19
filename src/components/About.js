@@ -12,19 +12,19 @@ const About = () => {
           <div className="row g-4 justify-content-between">
             <div className="col-lg-4">
               <div className="count-box">
-                <h2 className="count">40+</h2>
+                <h2 className="count">5</h2>
                 <h2 className="happy-client">Happy clients</h2>
               </div>
             </div>
             <div className="col-lg-4">
               <div className="count-box">
-                <h2 className="count">2+</h2>
+                <h2 className="count">1+</h2>
                 <h2 className="happy-client">Years of experience</h2>
               </div>
             </div>
             <div className="col-lg-4">
               <div className="count-box">
-                <h2 className="count">50+</h2>
+                <h2 className="count">10</h2>
                 <h2 className="happy-client">Projects done</h2>
               </div>
             </div>
@@ -44,7 +44,11 @@ const About = () => {
                 great puzzle!
               </p>
               <div className=" w-50 nav-btn">
-                <a href="#" className="work-btn work-btn2">
+                <a
+                  href="./images/Sourabh's-Resume.pdf"
+                  target="_blank"
+                  className="work-btn work-btn2"
+                >
                   <span className="btn-caption ">Download CV</span>
                 </a>
               </div>

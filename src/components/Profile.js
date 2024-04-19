@@ -14,8 +14,8 @@ const Profile = () => {
         </div>
         <div className="myself ">
           <p className="special">Specialization:</p>
-          <div className="about-me">UI/UX designer </div>
-          <div className="about-me">and frontend developer</div>
+          <div className="about-me">Full Stack Developer</div>
+          <div className="about-me">and Mern Stack developer</div>
         </div>
         <div className="myself pt-1">
           <p className="special">Based in:</p>

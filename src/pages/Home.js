@@ -28,7 +28,11 @@ const Home = () => {
                 </div>
                 <div className="d-flex justify-content-lg-start gap-3">
                   <a className="tag tag2">My Works</a>
-                  <a href="./images/Sourabhresume.jpg" className="tag tag2">
+                  <a
+                    href="./images/Sourabh's-Resume.pdf"
+                    target="_blank"
+                    className="tag tag2"
+                  >
                     Download CV
                   </a>
                 </div>
