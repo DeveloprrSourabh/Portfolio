@@ -11,72 +11,93 @@ const Project = () => {
           </h2>
           <div className="row g-4">
             <div className="col-sm-6">
-              <div className="project-img ">
-                <img
-                  className="picture"
-                  src="./images/project1.webp"
-                  alt="project-img"
-                />
-                <div className="about-project">
-                  <a href="#" className="tag">
-                    Illustration
-                  </a>
-                  <a href="#" className="tag">
-                    Figma
-                  </a>
+              <a
+                href="https://github.com/DeveloprrSourabh/iDiscuss"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="project-img ">
+                  <img
+                    className="picture"
+                    src="./images/discuss.png"
+                    alt="project-img"
+                  />
+                  <div className="about-project">
+                    <a href="#" className="tag">
+                      Frontended
+                    </a>
+                    <a href="#" className="tag">
+                      Php
+                    </a>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
             <div className="col-sm-6">
-              <div className="project-img ">
-                <img
-                  className="picture"
-                  src="./images/project1.webp"
-                  alt="project-img"
-                />
-                <div className="about-project">
-                  <a href="#" className="tag">
-                    Illustration
-                  </a>
-                  <a href="#" className="tag">
-                    Figma
-                  </a>
+              <a
+                target="_blank"
+                href="https://github.com/DeveloprrSourabh/Fazfood"
+              >
+                <div className="project-img ">
+                  <img
+                    className="picture"
+                    src="./images/project1.webp"
+                    alt="project-img"
+                  />
+                  <div className="about-project">
+                    <a href="#" className="tag">
+                      ReactJS
+                    </a>
+                    <a href="#" className="tag">
+                      NodeJS
+                    </a>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
             <div className="col-sm-6">
-              <div className="project-img ">
-                <img
-                  className="picture"
-                  src="./images/project1.webp"
-                  alt="project-img"
-                />
-                <div className="about-project">
-                  <a href="#" className="tag">
-                    Illustration
-                  </a>
-                  <a href="#" className="tag">
-                    Figma
-                  </a>
+              <a
+                target="_blank"
+                href="https://github.com/DeveloprrSourabh/Lenskart"
+              >
+                <div className="project-img ">
+                  <img
+                    className="picture"
+                    src="./images/lenskart.png"
+                    alt="project-img"
+                  />
+                  <div className="about-project">
+                    <a href="#" className="tag">
+                      ReactJS
+                    </a>
+                    <a href="#" className="tag">
+                      NodeJS
+                    </a>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
             <div className="col-sm-6">
-              <div className="project-img ">
-                <img
-                  className="picture"
-                  src="./images/project1.webp"
-                  alt="project-img"
-                />
-                <div className="about-project">
-                  <a href="#" className="tag">
-                    Illustration
-                  </a>
-                  <a href="#" className="tag">
-                    Figma
-                  </a>
+              <a
+                target="_blank"
+                href="https://github.com/DeveloprrSourabh/Whatsapp"
+              >
+                <div className="project-img ">
+                  <img
+                    className="picture"
+                    src="./images/whatsapp.webp"
+                    alt="project-img"
+                  />
+                  <div className="about-project">
+                    <a href="#" className="tag">
+                      ReactJS
+                    </a>
+                    <a href="#" className="tag">
+                      NodeJS
+                    </a>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>
