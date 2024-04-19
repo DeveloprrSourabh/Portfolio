@@ -14,6 +14,7 @@ const Contact = () => {
             <div className="row">
               <div className="col-lg-6">
                 <input
+                  required
                   type="text"
                   placeholder="Your Name*"
                   className="form-input"
@@ -21,6 +22,7 @@ const Contact = () => {
               </div>
               <div className="col-lg-6">
                 <input
+                  required
                   type="text"
                   placeholder="Company Name*"
                   className="form-input"
@@ -28,6 +30,7 @@ const Contact = () => {
               </div>
               <div className="col-lg-6">
                 <input
+                  required
                   type="email"
                   placeholder="Email Address*"
                   className="form-input"
@@ -35,6 +38,7 @@ const Contact = () => {
               </div>
               <div className="col-lg-6">
                 <input
+                  required
                   type="tel"
                   placeholder="Phone Number*"
                   className="form-input"
@@ -42,6 +46,7 @@ const Contact = () => {
               </div>
               <div className="col-lg-12">
                 <textarea
+                  required
                   name="message"
                   placeholder="A Few Words*"
                   className="form-input"
