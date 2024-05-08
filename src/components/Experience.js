@@ -21,23 +21,38 @@ const Experience = () => {
         <div className="education">
           <h2 className="edu-heading py-5">My education</h2>
           <div className="row align-align-items-lg-start">
-            <div className="col-lg-2">2019 - 2020</div>
+            <div className="col-lg-2">2022 - Present</div>
             <div className="col-lg-5">
               <div className="study">
-                <div className="course">10th Standard</div>
-                <div className="school">DR Memorial School</div>
+                <div className="course">
+                  Bachelor of Computer Applications (BCA)
+                </div>
+                <div className="school">Shri Khushan Das University</div>
               </div>
             </div>
             <div className="col-lg-5">
-              <p className="desc">I have completed my 10th in 2020.</p>
+              <p className="desc">I am currently pursuing my degree</p>
             </div>
           </div>
+
           <div className="row align-align-items-lg-start">
             <div className="col-lg-2">2021 - 2022</div>
             <div className="col-lg-5">
               <div className="study">
                 <div className="course">12th Standard</div>
                 <div className="school">Gov. Senior Secondary School</div>
+              </div>
+            </div>
+            <div className="col-lg-5">
+              <p className="desc">I have completed my 12th in 2022.</p>
+            </div>
+          </div>
+          <div className="row align-align-items-lg-start">
+            <div className="col-lg-2">2019 - 2020</div>
+            <div className="col-lg-5">
+              <div className="study">
+                <div className="course">10th Standard</div>
+                <div className="school">DR Memorial School</div>
               </div>
             </div>
             <div className="col-lg-5">
