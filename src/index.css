@@ -396,7 +396,6 @@ img.picture {
   cursor: pointer;
   background: linear-gradient(135deg, #e4b8bf 0%, #cec4ef 100%);
   color: #000;
-  border: none;
   border-radius: 10px;
 }
 .tools1 {
