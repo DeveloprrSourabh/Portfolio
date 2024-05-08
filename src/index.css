@@ -270,7 +270,7 @@ h2.count {
   font-size: 16px;
 }
 .tools .count-box {
-  padding: 10px 12px !important;
+  /* padding: 10px 12px !important; */
 }
 
 /* Contact Form */
