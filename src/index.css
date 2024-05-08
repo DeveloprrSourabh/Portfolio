@@ -240,7 +240,7 @@ h2.count {
   font-size: 16px;
 }
 .desc {
-  transition: all 1s;
+  /* transition: all 1s; */
 }
 .education .col-sm-2 {
   opacity: 0.7;
@@ -253,6 +253,7 @@ h2.count {
 }
 .education .row {
   padding: 44px 0px;
+  transition: cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
   border-top: 1px solid #ffffff30;
 }
 .education .row:last-child {
@@ -383,13 +384,20 @@ img.picture {
 }
 .education {
   position: relative;
-  top: 20%;
+  top: 10%;
   opacity: 0;
 }
 .edu-heading {
   position: relative;
   top: 5%;
-  opacity: 0;
+  opacity: 0.5;
+}
+.education .row:hover {
+  cursor: pointer;
+  background: linear-gradient(135deg, #e4b8bf 0%, #cec4ef 100%);
+  color: #000;
+  border: none;
+  border-radius: 10px;
 }
 .tools1 {
   position: relative;
