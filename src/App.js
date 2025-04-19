@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const App = () => {
   const box = useRef();
- const container = document.querySelector('html');
+ const container = document.querySelector('.main-col');
     const circle = document.querySelector('.cursor-circle');
 
     let mouseX = 0;
