@@ -8,7 +8,40 @@ gsap.registerPlugin(ScrollTrigger);
 
 const App = () => {
   const box = useRef();
+ const container = document.querySelector('html');
+    const circle = document.querySelector('.cursor-circle');
 
+    let mouseX = 0;
+    let mouseY = 0;
+    let currentX = 0;
+    let currentY = 0;
+
+    container.addEventListener('mousemove', (e) => {
+      const rect = container.getBoundingClientRect();
+      mouseX = e.clientX - rect.left;
+      mouseY = e.clientY - rect.top;
+    });
+
+    container.addEventListener('mouseleave', () => {
+      circle.style.display = 'none';
+    });
+
+    container.addEventListener('mouseenter', () => {
+      circle.style.display = 'block';
+    });
+
+    function animate() {
+      // Lerp toward the mouse position
+      currentX += (mouseX - currentX) * 0.1;
+      currentY += (mouseY - currentY) * 0.1;
+
+      circle.style.left = `${currentX}px`;
+      circle.style.top = `${currentY}px`;
+
+      requestAnimationFrame(animate);
+    }
+
+    animate(); // Start animation loop
   useGSAP(
     () => {
       // Portfolio view
