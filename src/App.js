@@ -124,6 +124,7 @@ const App = () => {
 
   return (
     <div id="app" ref={box}>
+<div class="cursor-circle"></div>
       <Home />
     </div>
   );
