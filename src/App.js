@@ -8,7 +8,40 @@ gsap.registerPlugin(ScrollTrigger);
 
 const App = () => {
   const box = useRef();
+ const container = document.querySelector('.profile');
+    const circle = document.querySelector('.cursor-circle');
 
+    let mouseX = 0;
+    let mouseY = 0;
+    let currentX = 0;
+    let currentY = 0;
+
+    container.addEventListener('mousemove', (e) => {
+      const rect = container.getBoundingClientRect();
+      mouseX = e.clientX - rect.left;
+      mouseY = e.clientY - rect.top;
+    });
+
+    container.addEventListener('mouseleave', () => {
+      circle.style.display = 'none';
+    });
+
+    container.addEventListener('mouseenter', () => {
+      circle.style.display = 'block';
+    });
+
+    function animate() {
+      // Lerp toward the mouse position
+      currentX += (mouseX - currentX) * 0.1;
+      currentY += (mouseY - currentY) * 0.1;
+
+      circle.style.left = `${currentX}px`;
+      circle.style.top = `${currentY}px`;
+
+      requestAnimationFrame(animate);
+    }
+
+    animate(); // Start animation loop
   useGSAP(
     () => {
       // Portfolio view
@@ -41,9 +74,9 @@ const App = () => {
       let resume = gsap.timeline({
         scrollTrigger: {
           trigger: "#resume",
-          start: "top center",
+          start: "0 100%",
           end: "top 100px",
-          scrub: 1,
+          scrub: 0,
         },
       });
       resume.to(".content-heading", { top: "0", opacity: "1" });
@@ -91,6 +124,7 @@ const App = () => {
 
   return (
     <div id="app" ref={box}>
+<div class="cursor-circle"></div>
       <Home />
     </div>
   );
