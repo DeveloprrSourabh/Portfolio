@@ -45,7 +45,7 @@ const About = () => {
               </p>
               <div className=" w-50 nav-btn">
                 <a
-                  href="./images/Sourabh's-Resume.pdf"
+                  href="./images/2571001_SOURABH_CSE.pdf"
                   target="_blank"
                   className="work-btn work-btn2"
                 >
